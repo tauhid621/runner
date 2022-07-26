@@ -731,6 +731,7 @@ namespace GitHub.Runner.Worker
             }
 
             ExpressionValues["secrets"] = Global.Variables.ToSecretsContext();
+            ExpressionValues["variables"] = Global.Variables.ToSecretsContext();
             ExpressionValues["runner"] = new RunnerContext();
             ExpressionValues["job"] = new JobContext();
 
