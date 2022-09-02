@@ -460,7 +460,7 @@ namespace GitHub.DistributedTask.Pipelines.ObjectTemplating
             PipelineTemplateConstants.Matrix,
             PipelineTemplateConstants.Needs,
             PipelineTemplateConstants.Secrets,
-            PipelineTemplateConstants.Variables,
+            PipelineTemplateConstants.Vars,
             PipelineTemplateConstants.Steps,
             PipelineTemplateConstants.Inputs,
             PipelineTemplateConstants.Job,
